@@ -8,5 +8,5 @@ var myApp;
         return HomeController;
     }());
     myApp.HomeController = HomeController;
-    angular.module("myApp").controller("homeControlller", HomeController);
+    angular.module("myApp").controller("HomeController", HomeController);
 })(myApp || (myApp = {}));

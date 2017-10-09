@@ -1,17 +1,6 @@
 ﻿
 module myApp {
-    class studentController {
-        constructor() {
-            console.log("I am in home controller");
-            this.now = new Date().toString();
-        }
-
-        now: string;
-    }
-
-    angular.module("myApp").controller("studentController", studentController as any);
-
-    class studentsController {
+    class StudentController {
         constructor() {
             console.log("I am in student controller");
             this.now = new Date().toString();
@@ -20,5 +9,16 @@ module myApp {
         now: string;
     }
 
-    angular.module("myApp").controller("studentsController", studentsController as any);
+    angular.module("myApp").controller("StudentController", StudentController as any);
+
+    class StudentsController {
+        constructor() {
+            console.log("I am in students controller");
+            this.now = new Date().toString();
+        }
+
+        now: string;
+    }
+
+    angular.module("myApp").controller("StudentsController", StudentsController as any);
 }

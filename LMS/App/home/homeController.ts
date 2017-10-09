@@ -10,5 +10,5 @@ module myApp {
         now: string;
     }
 
-    angular.module("myApp").controller("homeControlller", HomeController as any);
+    angular.module("myApp").controller("HomeController", HomeController as any);
 }

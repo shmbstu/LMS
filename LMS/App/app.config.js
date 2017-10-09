@@ -6,6 +6,7 @@ var myApp;
             // our code
             console.log("i am in configration file ");
             urlRouteProvider.otherwise("/");
+            stateProvider;
             stateProvider
                 .state("root", {
                 abstract: true,
@@ -15,7 +16,7 @@ var myApp;
                 .state("root.home", {
                 url: "/",
                 templateUrl: "partial/home/home.tpl.html",
-                controller: "homeControlller",
+                controller: "HomeController",
                 controllerAs: "vm"
             })
                 .state("root.student-entry", {

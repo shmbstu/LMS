@@ -1,18 +1,19 @@
 ﻿<!DOCTYPE html>
-<html>
-<head ng-app="myApp">
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
     <title></title>
-	<meta charset="utf-8" />
 </head>
 <body>
     <div ui-view>
     </div>
     <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-resource.min.js"></script>
     <script src="Scripts/angular-ui-router.js"></script>
-
-
-    <script src="App/app.config.js"></script>
-    <script src="App/home/homeController.js"></script>
-    <script src="App/student/studentController.js"></script>
+    <!--app files-->
+    <script src="app/app.config.js"></script>
+ 
+    <script src="app/home/HomeController.js"></script>
+    <script src="app/student/StudentController.js"></script>
 </body>
 </html>

@@ -12,6 +12,7 @@
             console.log("i am in configration file ");
             urlRouteProvider.otherwise("/");
             stateProvider
+            stateProvider
                 .state("root",
                 {
                     abstract: true,
@@ -23,7 +24,7 @@
                 {
                     url: "/",
                     templateUrl: "partial/home/home.tpl.html",
-                    controller: "homeControlller",
+                    controller: "HomeController",
                     controllerAs: "vm"
                 })
 
