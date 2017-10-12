@@ -94,6 +94,7 @@
     <TypeScriptCompile Include="App\app.config.ts" />
     <TypeScriptCompile Include="App\home\HomeController.ts" />
     <TypeScriptCompile Include="App\student\StudentController.ts" />
+    <TypeScriptCompile Include="App\student\StudentService.ts" />
     <TypeScriptCompile Include="Scripts\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\angularjs\angular-component-router.d.ts" />
     <TypeScriptCompile Include="Scripts\angularjs\angular-cookies.d.ts" />

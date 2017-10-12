@@ -28,18 +28,18 @@
                     controllerAs: "vm"
                 })
 
-                .state("root.student-entry",
+                .state("root.student",
                 {
                     // url
                     // route parameter
                     // controller
                     // view
-                    url: "/student-entry",
+                    url: "/student",
                     templateUrl: "partial/student/student.tpl.html",
                     controller: "StudentController",
                     controllerAs: "vm"
                 })
-                .state("root.student-list",
+                .state("root.student_list",
                 {
                     url: "/student-list",
                     templateUrl: "partial/student/student_list.tpl.html",
